@@ -1,3 +1,19 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+sqlalchemy
+mysql-connector-python
+streamlit
+notebook
+jupyterlab
+python-dotenv
+
+
+
+
 # Data manipulation
 pandas==2.1.1
 numpy==1.26.2
