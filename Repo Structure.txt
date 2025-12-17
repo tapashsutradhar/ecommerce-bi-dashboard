@@ -1,0 +1,26 @@
+ecommerce-bi-dashboard/
+├── data/
+│ ├── raw/
+│ │ ├── customers.csv
+│ │ ├── products.csv
+│ │ └── orders.csv
+│ └── processed/
+│ └── ecommerce_cleaned.csv
+├── sql/
+│ ├── schema.sql
+│ ├── data_cleaning.sql
+│ └── analysis_queries.sql
+├── notebooks/
+│ ├── 01_data_cleaning.ipynb
+│ ├── 02_exploratory_data_analysis.ipynb
+│ ├── 03_customer_segmentation.ipynb
+│ └── 04_sales_forecasting.ipynb
+├── src/
+│ ├── data_loader.py
+│ ├── preprocessing.py
+│ ├── visualization.py
+│ └── model.py
+├── dashboard/
+│ └── streamlit_app.py
+├── requirements.txt
+└── README.md
